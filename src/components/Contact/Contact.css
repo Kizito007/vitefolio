@@ -1,0 +1,26 @@
+.contact {
+  flex-direction: column;
+}
+input[type="email"],
+input[type="text"],
+textarea {
+  padding: 20px;
+  width: 100%;
+  letter-spacing: 1px;
+  border: 1.5px solid #c4c4c4;
+  outline: none;
+}
+@media only screen and (max-width: 800px) {
+  #contactt {
+    text-align: center;
+  }
+  #contactt .btn--outline {
+    width: 120px;
+    margin-left: 10%;
+  }
+  input[type="email"],
+  input[type="text"],
+  textarea {
+    width: 80%;
+  }
+}
