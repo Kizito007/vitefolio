@@ -29,48 +29,42 @@ const projects = [
   // if there are no projects, Projects section won't show up
   {
     name: "Dozies portfolio",
-    description:
-      "Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam",
-    stack: ["Styled Components", "CSS", "React"],
-    sourceCode: "https://github.com",
-    livePreview: "https://github.com",
+    description: "Partnered with the UI Designer to build his portfolio",
+    stack: ["Figma", "Styled Components", "CSS", "React"],
+    sourceCode: "https://github.com/Kizito007/for-dozie",
+    livePreview: "https://dozie.design",
   },
   {
     name: "Image repository API",
-    description:
-      "Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam",
+    description: "An image store and multi-querying api with Cloudinary ",
     stack: ["Express.js", "Cloudinary", "MongoDb"],
     sourceCode: "https://github.com",
-    livePreview: "https://github.com",
+    livePreview: "https://documenter.getpostman.com/view/9887316/TVzViGQR",
   },
   {
     name: "NFT Marketplace",
-    description:
-      "Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam",
-    stack: ["Node.js", "ejs", "Google APIs"],
+    description: "A decentralized NFT trading platform",
+    stack: ["Node.js", "Solidity", "Hardhat", "The Graph", "Next.js"],
     sourceCode: "https://github.com",
     livePreview: "https://github.com",
   },
   {
     name: "Boltfliz Media",
     description:
-      "Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam",
-    stack: ["Node.js", "ejs", "Google APIs"],
-    sourceCode: "https://github.com",
-    livePreview: "https://github.com",
+      "Collaborated with a team of awesome individuals to build a media download platform",
+    stack: ["Node.js", "Typescript", "Next.js"],
+    livePreview: "https://boltfliz.media",
   },
   {
     name: "Smartcheck Dashboard",
-    description:
-      "Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam",
-    stack: ["Node.js", "ejs", "Google APIs"],
+    description: "A live statistics dashboard UI",
+    stack: ["React.js", "MUI"],
     sourceCode: "https://github.com",
     livePreview: "https://github.com",
   },
   {
     name: "Cloudie",
-    description:
-      "Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam",
+    description: "A data upload and sharing platform",
     stack: ["Node.js", "ejs", "Google APIs"],
     sourceCode: "https://github.com",
     livePreview: "https://github.com",
