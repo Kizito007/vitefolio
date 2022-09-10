@@ -4,7 +4,7 @@ import TwitterIcon from '@material-ui/icons/Twitter'
 import ReactTypingEffect from 'react-typing-effect'
 import { about } from '../../portfolio'
 import './About.css'
-import kizitoo from "../img/kizitoo.jpg"
+import kizitoo from "../img/kizitoo1.jpeg"
 const About = () => {
   const { name, role, description, resume, social } = about
 
@@ -14,7 +14,7 @@ const About = () => {
         <img
           src={kizitoo}
           alt='kizitoo'
-          style={{ width: '245px', borderRadius: '30px' }}
+          style={{ width: '245px', borderRadius: '130px' }}
         />
       )}
       <br />
@@ -42,7 +42,7 @@ const About = () => {
 
       <div className='about__contact center'>
         {resume && (
-          <a href={resume}>
+          <a href={resume} style={{ position: "relative", bottom: "5px" }}>
             <span type='button' className='btn btn--outline'>
               Resume
             </span>
