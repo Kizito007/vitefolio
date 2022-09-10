@@ -4,9 +4,9 @@ import TwitterIcon from '@material-ui/icons/Twitter'
 import ReactTypingEffect from 'react-typing-effect'
 import { about } from '../../portfolio'
 import './About.css'
-
+import kizitoo from "../img/kizitoo.jpg"
 const About = () => {
-  const { name, kizitoo, role, description, resume, social } = about
+  const { name, role, description, resume, social } = about
 
   return (
     <div className='about center'>

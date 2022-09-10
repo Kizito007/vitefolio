@@ -3,12 +3,12 @@
   "private": true,
   "version": "0.1.0",
   "type": "module",
-  "homepage": "https://Kizito007.github.io/vitefolio",
+  "homepage": "https://kizito.me",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build --base=./",
     "preview": "vite preview",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@material-ui/core": "^4.12.4",
