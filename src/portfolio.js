@@ -44,7 +44,7 @@ const projects = [
     name: "NFT Marketplace",
     description: "A decentralized NFT trading platform",
     stack: ["Node.js", "Solidity", "Hardhat", "The Graph", "Next.js"],
-    sourceCode: "https://github.com",
+    sourceCode: "https://github.com/Kizito007/hardhat-nft-marketplace-fcc",
     livePreview: "https://github.com",
   },
   {
@@ -58,8 +58,8 @@ const projects = [
     name: "Smartcheck Dashboard",
     description: "A live statistics dashboard UI",
     stack: ["React.js", "MUI"],
-    sourceCode: "https://github.com",
-    livePreview: "https://github.com",
+    sourceCode: "https://github.com/Kizito007/smartcheck-dashboard",
+    livePreview: "https://smartcheck-dashboard.netlify.app",
   },
   {
     name: "Cloudie",
