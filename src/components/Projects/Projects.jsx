@@ -9,6 +9,7 @@ const Projects = () => {
   return (
     <section id='projects' className='section projects'>
       <h2 className='section__title'>Projects</h2>
+      <p className='section__title'>Here are some projects that I've worked on</p><br/>
 
       <div className='projects__grid'>
         {projects.map((project) => (

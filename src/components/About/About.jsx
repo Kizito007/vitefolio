@@ -14,7 +14,7 @@ const About = () => {
         <img
           src={kizitoo}
           alt='kizitoo'
-          style={{ width: '245px', borderRadius: '130px' }}
+          style={{ width: '210px', height: "220px", borderRadius: '130px' }}
         />
       )}
       <br />
@@ -29,7 +29,7 @@ const About = () => {
           <ReactTypingEffect
             typingDelay={1500}
             speed={100}
-            text={['A Developer', `A ${role}`, 'An adviser']}
+            text={['A Blockchain Developer', `A ${role}`, 'An adviser']}
           />
           .
         </h2>

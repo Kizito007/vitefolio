@@ -7,7 +7,7 @@ const header = {
 const about = {
   // all the properties are optional - can be left empty or deleted
   name: "Kizito",
-  role: "copy ninja of the web {1, 2, 3 ...5}",
+  role: "copy ninja of the web {1, 2, 3 ...}",
   description: {
     expertise: `
       With years of experience in building products that run on the Web. 
