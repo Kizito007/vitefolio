@@ -62,11 +62,11 @@ const projects = [
     livePreview: "https://smartcheck-dashboard.netlify.app",
   },
   {
-    name: "Cloudie",
-    description: "A data upload and sharing platform",
-    stack: ["Node.js", "ejs", "Google APIs"],
-    sourceCode: "https://github.com",
-    livePreview: "https://github.com",
+    name: "City Wide Stores API",
+    description: "An e-commerce API for the merchandise of iPhone products",
+    stack: ["Node.js", "Express.js", "MongoDb"],
+    sourceCode: "https://github.com/Kizito007/city-w.s-backend",
+    livePreview: "https://documenter.getpostman.com/view/9887316/2s7YfR7sn7",
   },
 ];
 
