@@ -73,9 +73,9 @@ const Contact = () => {
 
         <form onSubmit={submit}>
             <input type="text" onChange={e => setFullname(e.target.value)} id="fname" placeholder='Name' name="fname"/><br/><br/>
-            <input type="email" onChange={e => setEmail(e.target.value)} id="email" placeholder='Email Address' name="email"/><br/><br/>
+            <input type="email" required onChange={e => setEmail(e.target.value)} id="email" placeholder='Email Address' name="email"/><br/><br/>
             <input type="text" onChange={e => setSubject(e.target.value)} id="subject" placeholder='Subject' name="subject"/><br/><br/>
-            <textarea id="w3review" onChange={e => setText(e.target.value)} name="w3review" placeholder='Message' rows="10" cols="70"/><br /><br />
+            <textarea id="w3review" required onChange={e => setText(e.target.value)} name="w3review" placeholder='Message' rows="10" cols="70"/><br /><br />
             {
               isLoading ?
               <> <Spinner /><br/> </>

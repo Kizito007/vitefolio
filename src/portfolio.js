@@ -42,10 +42,9 @@ const projects = [
   },
   {
     name: "NFT Marketplace",
-    description: "A decentralized NFT trading platform",
+    description: "A decentralized NFT trading smart contract",
     stack: ["Node.js", "Solidity", "Hardhat", "The Graph", "Next.js"],
     sourceCode: "https://github.com/Kizito007/hardhat-nft-marketplace-fcc",
-    livePreview: "https://github.com",
   },
   {
     name: "Boltfliz Media",
