@@ -12,7 +12,7 @@ const about = {
     expertise: `
       With years of experience in building products that run on the Web. 
       I use JavaScript as my main tool for building solutions and I'm also enthusiatic in upgrading tech.
-      As a master of copy pasting and with my logical skills I tend to come up with reasonable algorithims overtime that brings a solution.
+      With my logical skills I tend to come up with reasonable algorithims overtime that brings a solution.
       `,
   },
   resume: "https://serene-bastion-81946.herokuapp.com/",
