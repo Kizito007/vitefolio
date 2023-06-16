@@ -7,7 +7,7 @@ const header = {
 const about = {
   // all the properties are optional - can be left empty or deleted
   name: "Kizito",
-  role: "copy ninja of the web {1, 2, 3 ...}",
+  role: "ninja of the web {1, 2, 3 ...}",
   description: {
     expertise: `
       With years of experience in building products that run on the Web. 
@@ -15,7 +15,7 @@ const about = {
       With my logical skills I tend to come up with reasonable algorithims overtime that brings a solution.
       `,
   },
-  resume: "https://serene-bastion-81946.herokuapp.com/",
+  // resume: "https://serene-bastion-81946.herokuapp.com/",
   social: {
     linkedin: "https://linkedin.com/in/kizito-nwaka-b369691a7",
     github: "https://github.com/Kizito007",
@@ -51,7 +51,7 @@ const projects = [
     description:
       "Collaborated with a team of awesome individuals to build a media download platform",
     stack: ["Node.js", "Typescript", "Next.js"],
-    livePreview: "https://boltfliz.media",
+    livePreview: "https://boltfliz.vercel.app/",
   },
   {
     name: "Smartcheck Dashboard",
@@ -67,6 +67,18 @@ const projects = [
     sourceCode: "https://github.com/Kizito007/city-w.s-backend",
     livePreview: "https://documenter.getpostman.com/view/9887316/2s7YfR7sn7",
   },
+  {
+    name: "Campus Life",
+    description: "Solving accomodation challenges for students in campus",
+    stack: ["React.js", "Node.js", "Express.js", "MongoDb"],
+    livePreview: "https://campus-life-test.netlify.app/",
+  },
+  {
+    name: "Fastrash",
+    description: "Open sourced with my friends and colleagues on this solution challenge to aid recycling",
+    stack: ["Node.js", "Express.js", "MongoDb"],
+    livePreview: "https://fastrash.vercel.app/",
+  },
 ];
 
 const skills = [
@@ -74,11 +86,13 @@ const skills = [
   // if there are no skills, Skills section won't show up
   "HTML",
   "CSS",
-  "JavaScript",
+  "Javascript",
+  "Typescript",
   "Solidity",
   "web3",
   "React",
   "Redux",
+  "Next.js",
   "Hardhat",
   "Bootstrap",
   "Material UI",

@@ -29,7 +29,7 @@ const About = () => {
           <ReactTypingEffect
             typingDelay={1500}
             speed={100}
-            text={['A Blockchain Developer', `A ${role}`, 'An adviser']}
+            text={['A Software Engineer', `A ${role}`, 'An adviser']}
           />
           .
         </h2>
