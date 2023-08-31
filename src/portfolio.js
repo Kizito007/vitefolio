@@ -1,25 +1,25 @@
 const header = {
   // all the properties are optional - can be left empty or deleted
   homepage: "/",
-  title: "Kizito007",
+  title: "Devjosh",
 };
 
 const about = {
   // all the properties are optional - can be left empty or deleted
-  name: "Kizito",
-  role: "ninja of the web {1, 2, 3 ...}",
+  name: "Joshua",
+  role: "also known as devjosh",
   description: {
-    expertise: `
-      With years of experience in building products that run on the Web. 
-      I use JavaScript as my main tool for building solutions and I'm also enthusiatic in upgrading tech.
+    expertise: ` 
+      I am software developer preferrably mobile back-end and front-end.
+      writing computer instructions with flutter is my favorite thing to do
       With my logical skills I tend to come up with reasonable algorithims overtime that brings a solution.
       `,
   },
   // resume: "https://serene-bastion-81946.herokuapp.com/",
   social: {
-    linkedin: "https://linkedin.com/in/kizito-nwaka-b369691a7",
-    github: "https://github.com/Kizito007",
-    twitter: "https://twitter.com/kelechithe3rd",
+    linkedin: "https://www.linkedin.com/in/joshua-awom-8a8182177",
+    github: "https://github.com/theJosh1",
+    twitter: "https://twitter.com/jocalex8",
   },
 };
 
@@ -27,57 +27,31 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
-    name: "Dozies portfolio",
-    description: "Partnered with the UI Designer to build his portfolio",
-    stack: ["Figma", "Styled Components", "CSS", "React"],
-    sourceCode: "https://github.com/Kizito007/for-dozie",
-    livePreview: "https://dozie.design",
+    name: "Prophetic Prayers for children",
+    description: "A prayer journal build for the army of david ministires",
+    stack: ["Figma", "FLutter"],
+    sourceCode: "https://github.com/thejosh1/prophetic-prayers",
+    livePreview: "https://play.google.com/store/apps/details?id=com.zirite.prophetic_prayers&pcampaignid=web_share",
   },
   {
-    name: "Image repository API",
-    description: "An image store and multi-querying api with Cloudinary ",
-    stack: ["Express.js", "Cloudinary", "MongoDb"],
-    sourceCode: "https://github.com",
-    livePreview: "https://documenter.getpostman.com/view/9887316/TVzViGQR",
+    name: "Adeppo-Group",
+    description: "A static website for an oil and gas company",
+    stack: ["Html", "Css", "Javascript"],
+    sourceCode: "https://github.com/thejosh1/Adeppo",
+    livePreview: "https://lighthearted-beignet-5a4c8a.netlify.app/#",
   },
   {
-    name: "NFT Marketplace",
-    description: "A decentralized NFT trading smart contract",
-    stack: ["Node.js", "Solidity", "Hardhat", "The Graph", "Next.js"],
-    sourceCode: "https://github.com/Kizito007/hardhat-nft-marketplace-fcc",
+    name: "Shoppeet",
+    description: "A customer service page for shoppeet an e-commerce company",
+    stack: ["reactjs", "html", "css",],
+    livePreview: "https://shoppeet.com/",
   },
   {
-    name: "Boltfliz Media",
+    name: "Food Delivery Demo",
     description:
-      "Collaborated with a team of awesome individuals to build a media download platform",
-    stack: ["Node.js", "Typescript", "Next.js"],
-    livePreview: "https://boltfliz.vercel.app/",
-  },
-  {
-    name: "Smartcheck Dashboard",
-    description: "A live statistics dashboard UI",
-    stack: ["React.js", "MUI"],
-    sourceCode: "https://github.com/Kizito007/smartcheck-dashboard",
-    livePreview: "https://smartcheck-dashboard.netlify.app",
-  },
-  {
-    name: "City Wide Stores API",
-    description: "An e-commerce API for the merchandise of iPhone products",
-    stack: ["Node.js", "Express.js", "MongoDb"],
-    sourceCode: "https://github.com/Kizito007/city-w.s-backend",
-    livePreview: "https://documenter.getpostman.com/view/9887316/2s7YfR7sn7",
-  },
-  {
-    name: "Campus Life",
-    description: "Solving accomodation challenges for students in campus",
-    stack: ["React.js", "Node.js", "Express.js", "MongoDb"],
-    livePreview: "https://campus-life-test.netlify.app/",
-  },
-  {
-    name: "Fastrash",
-    description: "Open sourced with my friends and colleagues on this solution challenge to aid recycling",
-    stack: ["Node.js", "Express.js", "MongoDb"],
-    livePreview: "https://fastrash.vercel.app/",
+      "A personal food delivery app.. a hobby project",
+    stack: ["FLutter", "Laravel(php)"],
+    livePreview: "https://github.com/thejosh1/Food_Delivery_demo",
   },
 ];
 
@@ -87,30 +61,21 @@ const skills = [
   "HTML",
   "CSS",
   "Javascript",
-  "Typescript",
-  "Solidity",
-  "web3",
+  "Flutter",
   "React",
   "Redux",
-  "Next.js",
-  "Hardhat",
   "Bootstrap",
-  "Material UI",
   "Git",
   "Github",
   "CI/CD",
   "Microsoft Office",
   "Google Apps",
-  "Node.js",
-  "express.js",
-  "MongoDb",
-  "Mongoose",
   "Postman",
 ];
 
 const contact = {
   // email is optional - if left empty Contact section won't show up
-  email: "nwakakelechi49@gmail.com",
+  email: "joshuaawom062@gmail.com",
 };
 
 export { header, about, projects, skills, contact };
