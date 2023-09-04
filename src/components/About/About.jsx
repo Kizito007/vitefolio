@@ -20,7 +20,7 @@ const About = () => {
       <br />
       {name && (
         <h1>
-          Hi, I am <span className='about__name'>{name}.</span>
+          Hi, my name is <span className='about__name'>{name}.</span>
         </h1>
       )}
 
@@ -29,13 +29,13 @@ const About = () => {
           <ReactTypingEffect
             typingDelay={1500}
             speed={100}
-            text={['A Mobile Developer', `A ${role}`, 'A software developer']}
+            text={['A Mobile Developer', `${role}`, 'A software developer']}
           />
           .
         </h2>
       )}
       <p className='about__desc'>
-        {description.expertise && description.expertise}
+        <br />{description.expertise && description.expertise}
         <br />I am also an Arsenal fan. Loves Anime, Games, Tourism and
         Beans 😂
       </p>

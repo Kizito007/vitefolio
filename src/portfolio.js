@@ -10,8 +10,7 @@ const about = {
   role: "also known as devjosh",
   description: {
     expertise: ` 
-      I am software developer preferrably mobile back-end and front-end.
-      writing computer instructions with flutter is my favorite thing to do
+      I am a web developer and mobile applications developer. I have adequate experience building real world applications 
       With my logical skills I tend to come up with reasonable algorithims overtime that brings a solution.
       `,
   },
