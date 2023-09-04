@@ -4,7 +4,7 @@ import TwitterIcon from '@material-ui/icons/Twitter'
 import ReactTypingEffect from 'react-typing-effect'
 import { about } from '../../portfolio'
 import './About.css'
-import kizitoo from "../img/kizitoo1.jpeg"
+import kizitoo from "../img/profile.jpg"
 const About = () => {
   const { name, role, description, resume, social } = about
 
@@ -13,14 +13,14 @@ const About = () => {
       {kizitoo && (
         <img
           src={kizitoo}
-          alt='kizitoo'
+          alt='Joshua'
           style={{ width: '210px', height: "220px", borderRadius: '130px' }}
         />
       )}
       <br />
       {name && (
         <h1>
-          Hi, I am <span className='about__name'>{name}.</span>
+          Hi, my name is <span className='about__name'>{name}.</span>
         </h1>
       )}
 
@@ -29,14 +29,14 @@ const About = () => {
           <ReactTypingEffect
             typingDelay={1500}
             speed={100}
-            text={['A Software Engineer', `A ${role}`, 'An adviser']}
+            text={['A Mobile Developer', `${role}`, 'A software developer']}
           />
           .
         </h2>
       )}
       <p className='about__desc'>
-        {description.expertise && description.expertise}
-        <br />I am also a fan of Manchester Utd. Loves Anime, Games, Tourism and
+        <br />{description.expertise && description.expertise}
+        <br />I am also an Arsenal fan. Loves Anime, Games, Tourism and
         Beans 😂
       </p>
 
