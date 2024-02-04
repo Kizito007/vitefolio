@@ -31,7 +31,7 @@ const projects = [
     description: "Partnered with the UI Designer to build his portfolio",
     stack: ["Figma", "Styled Components", "CSS", "React"],
     sourceCode: "https://github.com/Kizito007/for-dozie",
-    livePreview: "https://dozie.design",
+    livePreview: "https://dozie-nwaka.netlify.app/",
   },
   {
     name: "Image repository API",
@@ -79,6 +79,18 @@ const projects = [
     stack: ["Node.js", "Express.js", "MongoDb"],
     livePreview: "https://fastrash.vercel.app/",
   },
+  {
+    name: "GIF Finder",
+    description: "Have fun and search for your favorite GIF",
+    stack: ["React.js", "GIPHY API"],
+    livePreview: "https://giff-finder.netlify.app/",
+  },
+  {
+    name: "Paystack Integration Article",
+    description: "Creating a Simple Payment System in Node.js and MongoDb Using Paystack: A Step-by-Step Guide 💳💸",
+    stack: ["React.js", "GIPHY API"],
+    livePreview: "https://dev.to/kizito007/creating-a-simple-payment-system-in-nodejs-and-mongodb-using-paystack-a-step-by-step-guide-2mc4",
+  },
 ];
 
 const skills = [
@@ -88,6 +100,7 @@ const skills = [
   "CSS",
   "Javascript",
   "Typescript",
+  "C#",
   "Solidity",
   "web3",
   "React",
