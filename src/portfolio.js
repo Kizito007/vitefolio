@@ -88,7 +88,7 @@ const projects = [
   {
     name: "Paystack Integration Article",
     description: "Creating a Simple Payment System in Node.js and MongoDb Using Paystack: A Step-by-Step Guide 💳💸",
-    stack: ["React.js", "GIPHY API"],
+    stack: ["Node.js", "Paystack API",],
     livePreview: "https://dev.to/kizito007/creating-a-simple-payment-system-in-nodejs-and-mongodb-using-paystack-a-step-by-step-guide-2mc4",
   },
 ];
