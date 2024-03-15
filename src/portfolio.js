@@ -18,7 +18,7 @@ const about = {
   // resume: "https://serene-bastion-81946.herokuapp.com/",
   social: {
     linkedin: "https://linkedin.com/in/kizito-nwaka-b369691a7",
-    github: "https://github.com/Kizito007",
+    github: "https://github.com/KizitoK",
     twitter: "https://twitter.com/kelechithe3rd",
   },
 };
