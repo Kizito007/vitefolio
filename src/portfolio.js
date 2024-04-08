@@ -33,6 +33,12 @@ const projects = [
     livePreview: "https://play.google.com/store/apps/details?id=com.zirite.prophetic_prayers&pcampaignid=web_share",
   },
   {
+    name: "Ruach",
+    description: "Ruach app, is designed to be an app that empowers a believers by providing an array of spiritual messages and sounds in order to equip a believer with a simlitude of fellowship by means of modern technology.",
+    stack: ["Figma", "FLutter"],
+    livePreview: "https://play.google.com/store/apps/details?id=com.zirite.prophetic_prayers&pcampaignid=web_share",
+  }
+  {
     name: "Adeppo-Group",
     description: "A static website for an oil and gas company",
     stack: ["Html", "Css", "Javascript"],
