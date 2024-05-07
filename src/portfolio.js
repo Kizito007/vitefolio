@@ -30,7 +30,7 @@ const projects = [
     name: "Dozies portfolio",
     description: "Partnered with the UI Designer to build his portfolio",
     stack: ["Figma", "Styled Components", "CSS", "React"],
-    // sourceCode: "https://github.com/Kizito007/for-dozie",
+    sourceCode: "https://github.com/Kizito007/for-dozie",
     livePreview: "https://dozie-nwaka.netlify.app/",
   },
   {
@@ -57,14 +57,14 @@ const projects = [
     name: "Smartcheck Dashboard",
     description: "A live statistics dashboard UI",
     stack: ["React.js", "MUI"],
-    // sourceCode: "https://github.com/Kizito007/smartcheck-dashboard",
+    sourceCode: "https://github.com/Kizito007/smartcheck-dashboard",
     livePreview: "https://smartcheck-dashboard.netlify.app",
   },
   {
     name: "City Wide Stores API",
     description: "An e-commerce API for the merchandise of iPhone products",
     stack: ["Node.js", "Express.js", "MongoDb"],
-    // sourceCode: "https://github.com/Kizito007/city-w.s-backend",
+    sourceCode: "https://github.com/Kizito007/city-w.s-backend",
     livePreview: "https://documenter.getpostman.com/view/9887316/2s7YfR7sn7",
   },
   {
