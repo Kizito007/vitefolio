@@ -46,12 +46,6 @@ const projects = [
     livePreview: "https://lighthearted-beignet-5a4c8a.netlify.app/#",
   },
   {
-    name: "Shoppeet",
-    description: "A customer service page for shoppeet an e-commerce company",
-    stack: ["reactjs", "html", "css",],
-    livePreview: "https://shoppeet.com/",
-  },
-  {
     name: "Food Delivery Demo",
     description:
       "A personal food delivery app.. a hobby project",
