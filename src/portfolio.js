@@ -26,18 +26,18 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
-    name: "Prophetic Prayers for children",
-    description: "A prayer journal build for the army of david ministires",
+    name: "CKash",
+    description: "A loan and real estate app",
     stack: ["Figma", "FLutter"],
-    sourceCode: "https://github.com/thejosh1/prophetic-prayers",
-    livePreview: "https://play.google.com/store/apps/details?id=com.zirite.prophetic_prayers&pcampaignid=web_share",
+    sourceCode: "https://github.com/ceeno007/ckashng.git",
+    //livePreview: "https://play.google.com/store/apps/details?id=com.zirite.prophetic_prayers&pcampaignid=web_share",
   },
   {
     name: "Ruach",
     description: "Ruach app, is designed to be an app that empowers a believers by providing an array of spiritual messages and sounds in order to equip a believer with a simlitude of fellowship by means of modern technology.",
     stack: ["Figma", "FLutter"],
     livePreview: "https://play.google.com/store/apps/details?id=com.zirite.prophetic_prayers&pcampaignid=web_share",
-  }
+  },
   {
     name: "Adeppo-Group",
     description: "A static website for an oil and gas company",
@@ -46,11 +46,11 @@ const projects = [
     livePreview: "https://lighthearted-beignet-5a4c8a.netlify.app/#",
   },
   {
-    name: "Food Delivery Demo",
+    name: "MyArtelab",
     description:
-      "A personal food delivery app.. a hobby project",
-    stack: ["FLutter", "Laravel(php)"],
-    livePreview: "https://github.com/thejosh1/Food_Delivery_demo",
+      "A social app for creatives",
+    stack: ["FLutter", "Firebase"],
+    livePreview: "https://github.com/MyArteLab/MyArteLab.git",
   },
 ];
 
