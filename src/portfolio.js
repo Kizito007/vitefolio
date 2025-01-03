@@ -49,7 +49,8 @@ const projects = [
     name: "MyArtelab",
     description: "A social app for creatives",
     stack: ["FLutter", "Firebase"],
-    livePreview: "https://github.com/MyArteLab/MyArteLab.git",
+    sourceCode: "https://github.com/MyArteLab/MyArteLab.git",
+    //livePreview: "https://github.com/MyArteLab/MyArteLab.git",
   },
 ];
 
