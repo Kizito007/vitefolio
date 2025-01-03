@@ -7,12 +7,11 @@ const header = {
 const about = {
   // all the properties are optional - can be left empty or deleted
   name: "Kizito",
-  role: "ninja of the web {1, 2, 3 ...}",
+  role: "ninja of the web",
   description: {
     expertise: `
-      With years of experience in building products that run on the Web. 
-      I use JavaScript as my main tool for building solutions and I'm also enthusiatic in upgrading tech.
-      With my logical skills I tend to come up with reasonable algorithims overtime that brings a solution.
+      Experienced Software Engineer Specializing in Solutions | Innovating with Logic and a Passion for Tech Upgrades. 
+      A Manchester United Fan Who Loves Anime, Gaming, Tourism and Yes, Even Beans! 🤓🚀
       `,
   },
   // resume: "https://serene-bastion-81946.herokuapp.com/",
@@ -102,7 +101,6 @@ const skills = [
   "Typescript",
   "C#",
   "Solidity",
-  "web3",
   "React",
   "Redux",
   "Next.js",
@@ -115,10 +113,14 @@ const skills = [
   "Microsoft Office",
   "Google Apps",
   "Node.js",
-  "express.js",
+  "Nest.js",
   "MongoDb",
   "Mongoose",
   "Postman",
+  "Go",
+  "Gin",
+  "Azure",
+  "AWS"
 ];
 
 const contact = {

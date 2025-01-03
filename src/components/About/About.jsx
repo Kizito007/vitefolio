@@ -5,6 +5,7 @@ import ReactTypingEffect from 'react-typing-effect'
 import { about } from '../../portfolio'
 import './About.css'
 import kizitoo from "../img/kizitoo1.jpeg"
+import k from "../img/k.jpeg"
 const About = () => {
   const { name, role, description, resume, social } = about
 
@@ -12,7 +13,7 @@ const About = () => {
     <div className='about center'>
       {kizitoo && (
         <img
-          src={kizitoo}
+          src={k}
           alt='kizitoo'
           style={{ width: '210px', height: "220px", borderRadius: '130px' }}
         />
@@ -29,15 +30,13 @@ const About = () => {
           <ReactTypingEffect
             typingDelay={1500}
             speed={100}
-            text={['A Software Engineer', `A ${role}`, 'An adviser']}
+            text={['A Software Engineer', `A ${role}`, 'A Fullstack Developer']}
           />
           .
         </h2>
       )}
       <p className='about__desc'>
         {description.expertise && description.expertise}
-        <br />I am also a fan of Manchester Utd. Loves Anime, Games, Tourism and
-        Beans 😂
       </p>
 
       <div className='about__contact center'>

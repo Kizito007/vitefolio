@@ -25,7 +25,7 @@ const Contact = () => {
       const to = "nwakakelechi49@gmail.com"
       const sender = { email, subject, textField, to, fullname };
       const senderRes = await axios.post(
-        "https://precious-yak-jumpsuit.cyclic.app/v1/dozie/sendMail",
+        "https://mailing-api-bxo2.onrender.com/v1/dozie/sendMail",
         sender
       );
       setIsLoading(false)
