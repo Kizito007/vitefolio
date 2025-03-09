@@ -46,11 +46,11 @@ const projects = [
     livePreview: "https://lighthearted-beignet-5a4c8a.netlify.app/#",
   },
   {
-    name: "MyArtelab",
-    description: "A social app for creatives",
-    stack: ["FLutter", "Firebase"],
-    sourceCode: "https://github.com/MyArteLab/MyArteLab.git",
-    //livePreview: "https://github.com/MyArteLab/MyArteLab.git",
+    name: "GIIN",
+    description: "A social impact website",
+    stack: ["C#", "MySql"],
+    //sourceCode: "https://giin.org.ng",
+    livePreview: "https://giin.org.ng",
   },
 ];
 
