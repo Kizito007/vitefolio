@@ -26,11 +26,10 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
-    name: "CKash",
-    description: "A loan and real estate app",
+    name: "Ozi",
+    description: "A peer to peer delivery app",
     stack: ["Figma", "FLutter"],
-    sourceCode: "https://github.com/ceeno007/ckashng.git",
-    livePreview: "https://appetize.io/app/b_lnyi26ru5iwkpctuyjgymfmj4u",
+    livePreview: "https://play.google.com/store/apps/details?id=com.ozionline.app&pcampaignid=web_share",
   },
   {
     name: "RichbonApp",
