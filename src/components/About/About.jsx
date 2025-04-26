@@ -15,7 +15,7 @@ const About = () => {
         <img
           src={k}
           alt='kizitoo'
-          style={{ width: '210px', height: "220px", borderRadius: '130px' }}
+          style={{ width: '210px', height: "230px", borderRadius: '130px' }}
         />
       )}
       <br />
@@ -30,7 +30,7 @@ const About = () => {
           <ReactTypingEffect
             typingDelay={1500}
             speed={100}
-            text={['A Software Engineer', `A ${role}`, 'A Fullstack Developer']}
+            text={['A Software Engineer', `An ${role}`, 'A Fullstack Developer']}
           />
           .
         </h2>
@@ -53,6 +53,8 @@ const About = () => {
             {social.github && (
               <a
                 href={social.github}
+                target='_blank'
+                rel='noopener noreferrer'
                 aria-label='github'
                 className='link link--icon'
               >
@@ -63,6 +65,8 @@ const About = () => {
             {social.linkedin && (
               <a
                 href={social.linkedin}
+                target='_blank'
+                rel='noopener noreferrer'
                 aria-label='linkedin'
                 className='link link--icon'
               >
@@ -72,6 +76,8 @@ const About = () => {
             {social.linkedin && (
               <a
                 href={social.twitter}
+                target='_blank'
+                rel='noopener noreferrer'
                 aria-label='twitter'
                 className='link link--icon'
               >

@@ -7,10 +7,10 @@ const header = {
 const about = {
   // all the properties are optional - can be left empty or deleted
   name: "Kizito",
-  role: "ninja of the web",
+  role: "expert in  building software solutions",
   description: {
     expertise: `
-      Experienced Software Engineer Specializing in Solutions | Innovating with Logic and a Passion for Tech Upgrades. 
+      Experienced Software Engineer specializing in delivering innovative software solutions | Passionate about technology, logic, and continuous improvement. 
       A Manchester United Fan Who Loves Anime, Gaming, Tourism and Yes, Even Beans! 🤓🚀
       `,
   },
@@ -90,7 +90,37 @@ const projects = [
     stack: ["Node.js", "Paystack API",],
     livePreview: "https://dev.to/kizito007/creating-a-simple-payment-system-in-nodejs-and-mongodb-using-paystack-a-step-by-step-guide-2mc4",
   },
+  {
+    name: "An Employee Attendance Management System",
+    description: "A simple employee attendance management system which allows you to track employee attendance (in and out) with Facial Recognition A.I and generate reports.",
+    stack: ["Nest.js", "Face++", "Next.js", "MongoDb", "Tailwind CSS"],
+    livePreview: "https://employee-mgmt-weld.vercel.app/login",
+  },
+  {
+    name: "An Ecommerce Admin Panel",
+    description: "An Ecommerce Admin panel built on zero trust architecture & role based authorization access.",
+    stack: ["Nest.js", "Face++", "Next.js", "MongoDb", "Tailwind CSS"],
+    livePreview: "https://cyb-admin.vercel.app/admin/login",
+  },
 ];
+
+const companies = [
+  {
+    name: "Kuraway",
+    description: "Source with confidence, explore millions of products from thousands of verified merchants and manufacturers worldwide.",
+    livePreview: "https://kuraway.com",
+  },
+  {
+    name: "Ghast",
+    description: "Optimize Your Connection For Minecraft PvP.",
+    livePreview: "https://ghast.io",
+  },
+  {
+    name: "Realance",
+    description: "The AI-Powered CRM for Realtors in Africa.",
+    livePreview: "https://www.realance.co",
+  },
+]
 
 const skills = [
   // skills can be added or removed
@@ -128,4 +158,4 @@ const contact = {
   email: "nwakakelechi49@gmail.com",
 };
 
-export { header, about, projects, skills, contact };
+export { header, about, projects, skills, contact, companies };
