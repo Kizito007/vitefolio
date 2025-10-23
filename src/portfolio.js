@@ -120,6 +120,21 @@ const companies = [
     description: "The AI-Powered CRM for Realtors in Africa.",
     livePreview: "https://www.realance.co",
   },
+  {
+    name: "Harmony Kloud",
+    description: "Streamline clinical and practice management processes through innovative technology, enabling practioners to focus on what matters most - patient care.",
+    livePreview: "https://harmonykloud.com/",
+  },
+  {
+    name: "Acheva",
+    description: "Streamlining Academic Operations in Universities.",
+    livePreview: "https://www.acheva.app",
+  },
+  {
+    name: "VetraHr",
+    description: "Hire, pay and Manage Teams Effortlessly.",
+    livePreview: "https://vetrahr.com",
+  },
 ]
 
 const skills = [
