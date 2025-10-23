@@ -25,66 +25,7 @@ const about = {
 const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
-  {
-    name: "Dozies portfolio",
-    description: "Partnered with the UI Designer to build his portfolio",
-    stack: ["Figma", "Styled Components", "CSS", "React"],
-    sourceCode: "https://github.com/Kizito007/for-dozie",
-    livePreview: "https://dozie-nwaka.netlify.app/",
-  },
-  {
-    name: "Image repository API",
-    description: "An image store and multi-querying api with Cloudinary ",
-    stack: ["Express.js", "Cloudinary", "MongoDb"],
-    // sourceCode: "https://github.com",
-    livePreview: "https://documenter.getpostman.com/view/9887316/TVzViGQR",
-  },
-  {
-    name: "NFT Marketplace",
-    description: "A decentralized NFT trading smart contract",
-    stack: ["Node.js", "Solidity", "Hardhat", "The Graph", "Next.js"],
-    sourceCode: "https://github.com/Kizito007/hardhat-nft-marketplace-fcc",
-  },
-  {
-    name: "Boltfliz Media",
-    description:
-      "Collaborated with a team of awesome individuals to build a media download platform",
-    stack: ["Node.js", "Typescript", "Next.js"],
-    livePreview: "https://boltfliz.vercel.app/",
-  },
-  {
-    name: "Smartcheck Dashboard",
-    description: "A live statistics dashboard UI",
-    stack: ["React.js", "MUI"],
-    sourceCode: "https://github.com/Kizito007/smartcheck-dashboard",
-    livePreview: "https://smartcheck-dashboard.netlify.app",
-  },
-  {
-    name: "City Wide Stores API",
-    description: "An e-commerce API for the merchandise of iPhone products",
-    stack: ["Node.js", "Express.js", "MongoDb"],
-    sourceCode: "https://github.com/Kizito007/city-w.s-backend",
-    livePreview: "https://documenter.getpostman.com/view/9887316/2s7YfR7sn7",
-  },
-  {
-    name: "Campus Life",
-    description: "Solving accomodation challenges for students in campus",
-    stack: ["React.js", "Node.js", "Express.js", "MongoDb"],
-    livePreview: "https://campus-life-test.netlify.app/",
-  },
-  {
-    name: "Fastrash",
-    description: "Open sourced with my friends and colleagues on this solution challenge to aid recycling",
-    stack: ["Node.js", "Express.js", "MongoDb"],
-    livePreview: "https://fastrash.vercel.app/",
-  },
-  {
-    name: "GIF Finder",
-    description: "Have fun and search for your favorite GIF",
-    stack: ["React.js", "GIPHY API"],
-    livePreview: "https://giff-finder.netlify.app/",
-  },
-  {
+    {
     name: "Paystack Integration Article",
     description: "Creating a Simple Payment System in Node.js and MongoDb Using Paystack: A Step-by-Step Guide 💳💸",
     stack: ["Node.js", "Paystack API",],
@@ -102,6 +43,58 @@ const projects = [
     stack: ["Nest.js", "Face++", "Next.js", "MongoDb", "Tailwind CSS"],
     livePreview: "https://cyb-admin.vercel.app/admin/login",
   },
+  {
+    name: "Dozies portfolio",
+    description: "Partnered with the UI Designer to build his portfolio",
+    stack: ["Figma", "Styled Components", "CSS", "React"],
+    sourceCode: "https://github.com/Kizito007/for-dozie",
+    livePreview: "https://dozie-nwaka.netlify.app",
+  },
+  {
+    name: "NFT Marketplace",
+    description: "A decentralized NFT trading smart contract",
+    stack: ["Node.js", "Solidity", "Hardhat", "The Graph", "Next.js"],
+    sourceCode: "https://github.com/Kizito007/hardhat-nft-marketplace-fcc",
+  },
+  {
+    name: "Boltfliz Media",
+    description:
+      "Collaborated with a team of awesome individuals to build a media download platform",
+    stack: ["Node.js", "Typescript", "Next.js"],
+    livePreview: "https://boltfliz.vercel.app",
+  },
+  {
+    name: "Smartcheck Dashboard",
+    description: "A live statistics dashboard UI",
+    stack: ["React.js", "MUI"],
+    sourceCode: "https://github.com/Kizito007/smartcheck-dashboard",
+    livePreview: "https://smartcheck-dashboard.netlify.app",
+  },
+  // {
+  //   name: "Campus Life",
+  //   description: "Solving accomodation challenges for students in campus",
+  //   stack: ["React.js", "Node.js", "Express.js", "MongoDb"],
+  //   livePreview: "https://campus-life-test.netlify.app/",
+  // },
+  {
+    name: "Fastrash",
+    description: "Open sourced with GDSC community on this solution challenge to aid recycling",
+    stack: ["Node.js", "Express.js", "MongoDb"],
+    livePreview: "https://fastrash.vercel.app",
+  },
+  {
+    name: "GIF Finder",
+    description: "Have fun and search for your favorite GIF",
+    stack: ["React.js", "GIPHY API"],
+    livePreview: "https://giff-finder.netlify.app",
+  },
+  {
+    name: "E-commerce Catalog",
+    description: "Have fun and get an item",
+    stack: ["React", "Tailwind CSS", "Typescript"],
+    livePreview: "https://kizito-catalog.netlify.app/",
+  },
+
 ];
 
 const companies = [
