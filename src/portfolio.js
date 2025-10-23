@@ -63,13 +63,13 @@ const projects = [
     stack: ["Node.js", "Typescript", "Next.js"],
     livePreview: "https://boltfliz.vercel.app",
   },
-  {
-    name: "Smartcheck Dashboard",
-    description: "A live statistics dashboard UI",
-    stack: ["React.js", "MUI"],
-    sourceCode: "https://github.com/Kizito007/smartcheck-dashboard",
-    livePreview: "https://smartcheck-dashboard.netlify.app",
-  },
+  // {
+  //   name: "Smartcheck Dashboard",
+  //   description: "A live statistics dashboard UI",
+  //   stack: ["React.js", "MUI"],
+  //   sourceCode: "https://github.com/Kizito007/smartcheck-dashboard",
+  //   livePreview: "https://smartcheck-dashboard.netlify.app",
+  // },
   // {
   //   name: "Campus Life",
   //   description: "Solving accomodation challenges for students in campus",
