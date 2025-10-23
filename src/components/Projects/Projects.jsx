@@ -20,7 +20,7 @@ const Projects = () => {
     </section>
     <section id='projects' className='section projects'>
       <p className='section__title'>Here are some companies I have built with</p><br/>
-
+        <br/><br/>
       <div className='projects__grid'>
         {companies.map((project) => (
           <ProjectContainer key={uniqid()} project={project} />
